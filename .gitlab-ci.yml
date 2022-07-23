@@ -1,0 +1,123 @@
+stages:
+  - build
+  - test
+  - deploy
+
+image: lorisleiva/laravel-docker:7.3
+
+.change_file_permissions: &change_file_permissions |
+  find . -type f -not -path "./vendor/*" -exec chmod 664 {} \;
+  find . -type d -not -path "./vendor/*" -exec chmod 775 {} \;
+
+composer:
+  stage: build
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}-composer
+    paths:
+      - vendor/
+  script:
+    - composer install --no-ansi --no-interaction --no-progress --no-scripts --no-dev
+    - cp .env.example .env
+    - php artisan key:generate
+    - php artisan jwt:secret
+  artifacts:
+    expire_in: 1 month
+    paths:
+      - vendor/
+      - .env
+  only:
+    - master
+
+npm:
+  stage: build
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}-npm
+    paths:
+      - node_modules/
+  script:
+    - npm install
+    - cp .env.example .env
+    - sed -i -e 's/MIX_OBVY_APIKEY=/MIX_OBVY_APIKEY=f72b3c0a14064c4fba4db8f8697b9ce8/g' .env
+    - sed -i -e 's/APP_URL=http:\/\/127.0.0.1:8000/APP_URL=https:\/\/app.classic-parts-finder.com/g' .env
+    - sed -i -e 's/MIX_BUGSNAG_KEY=/MIX_BUGSNAG_KEY="5126c1285090cd7a677e680d8cfacede"/g' .env
+    - cat .env
+    - npm run production
+  artifacts:
+    expire_in: 1 month
+    paths:
+      - public/css/
+      - public/images/
+      - public/img/
+      - public/js/
+      - public/js/*.LICENSE.txt
+      - public/*.js
+      - public/*.LICENSE.txt
+      - public/mix-manifest.json
+      - storage/app/public/
+    exclude:
+      - public/**/*.map
+  only:
+    - master
+
+#dusk:
+#  stage: test
+#  dependencies:
+#    - composer
+#    - npm
+#  script:
+#    - sudo apt install -y google-chrome-stable
+#    - composer install
+#    - touch database/database.sqlite
+#    - nohup php artisan serve --env dusk.local &
+#    - php artisan dusk:chrome-driver
+#    - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
+#    - php artisan dusk
+
+#phpunit:
+#  stage: test
+#  dependencies:
+#    - composer
+#  script:
+#    - vendor/bin/phpunit --configuration ./phpunit.xml --coverage-clover=coverage.xml --colors=never --coverage-text --coverage-html=./coverage
+#  artifacts:
+#    paths:
+#      - coverage/
+#  only:
+#    - dev
+
+#codestyle:
+#  stage: test
+#  dependencies: []
+#  script:
+#    - phpcs --standard=PSR2 --extensions=php --ignore=app/Support/helpers.php app
+
+#pages:
+#  stage: deploy
+#  dependencies:
+#    - phpunit
+#  script:
+#    - mv coverage/* public/
+#  artifacts:
+#    paths:
+#      - public
+#    expire_in: 30 days
+#  only:
+#    - dev
+
+production:
+  stage: deploy
+  script:
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan classic-parts-finder.com >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+    - *change_file_permissions
+    - export PATH=/opt/php7.3/bin:$PATH
+    - php artisan deploy -s upload
+  environment:
+    name: production
+    url: https://app.classic-parts-finder.com
+  only:
+    - master

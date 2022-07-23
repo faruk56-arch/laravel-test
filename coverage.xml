@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1587113946">
+  <project timestamp="1587113946">
+    <package name="App\Console">
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Console/Kernel.php">
+        <class name="App\Console\Kernel" namespace="App\Console">
+          <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
+        </class>
+        <line num="25" type="method" name="schedule" visibility="protected" complexity="1" crap="2" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="36" type="method" name="commands" visibility="protected" complexity="1" crap="1" count="46"/>
+        <line num="38" type="stmt" count="46"/>
+        <line num="40" type="stmt" count="46"/>
+        <line num="41" type="stmt" count="46"/>
+        <metrics loc="42" ncloc="20" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
+      </file>
+    </package>
+    <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Contracts/RepositoryInterface.php">
+      <metrics loc="21" ncloc="21" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="App\Exceptions">
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Exceptions/Handler.php">
+        <class name="App\Exceptions\Handler" namespace="App\Exceptions">
+          <metrics complexity="4" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="62" ncloc="32" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Exceptions/UnauthorizedResourceException.php">
+        <class name="App\Exceptions\UnauthorizedResourceException" namespace="App\Exceptions">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+        </class>
+        <line num="10" type="method" name="render" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Filters">
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Filters/ProductFilter.php">
+        <class name="App\Filters\ProductFilter" namespace="App\Filters">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+        </class>
+        <line num="14" type="method" name="filterMap" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <metrics loc="18" ncloc="13" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Filters/ResearchFilter.php">
+        <class name="App\Filters\ResearchFilter" namespace="App\Filters">
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="10" coveredelements="0"/>
+        </class>
+        <line num="22" type="method" name="filterMap" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="31" type="method" name="term" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="47" type="method" name="settings" visibility="protected" complexity="1" crap="2" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <metrics loc="51" ncloc="31" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="10" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Filters/TermFilter.php">
+        <class name="App\Filters\TermFilter" namespace="App\Filters">
+          <metrics complexity="7" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="19" coveredelements="0"/>
+        </class>
+        <line num="14" type="method" name="filterMap" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="23" type="method" name="parent" visibility="public" complexity="3" crap="12" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="35" type="method" name="userId" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="62" type="method" name="settings" visibility="protected" complexity="1" crap="2" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <metrics loc="66" ncloc="46" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="19" coveredelements="0"/>
+      </file>
+    </package>
+    <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Helpers/helper.php">
+      <line num="3" type="stmt" count="0"/>
+      <line num="11" type="stmt" count="0"/>
+      <metrics loc="13" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="2" coveredelements="0"/>
+    </file>
+    <package name="App\Http\Controllers">
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Controllers/AuthController.php">
+        <class name="App\Http\Controllers\AuthController" namespace="App\Http\Controllers">
+          <metrics complexity="12" methods="8" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="33" coveredstatements="30" elements="41" coveredelements="37"/>
+        </class>
+        <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="15" type="stmt" count="7"/>
+        <line num="16" type="stmt" count="7"/>
+        <line num="18" type="method" name="register" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="36" type="method" name="refresh" visibility="public" complexity="3" crap="4.94" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="49" type="method" name="login" visibility="public" complexity="2" crap="2" count="5"/>
+        <line num="51" type="stmt" count="5"/>
+        <line num="53" type="stmt" count="5"/>
+        <line num="54" type="stmt" count="4"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="60" type="method" name="logout" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="1"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="78" type="method" name="me" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="80" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="1"/>
+        <line num="83" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="96" type="method" name="respondWithToken" visibility="protected" complexity="1" crap="1" count="5"/>
+        <line num="98" type="stmt" count="5"/>
+        <line num="100" type="stmt" count="5"/>
+        <line num="101" type="stmt" count="5"/>
+        <line num="102" type="stmt" count="5"/>
+        <line num="104" type="stmt" count="5"/>
+        <line num="105" type="stmt" count="5"/>
+        <line num="108" type="method" name="guard" visibility="private" complexity="1" crap="1" count="6"/>
+        <line num="110" type="stmt" count="6"/>
+        <metrics loc="112" ncloc="100" classes="1" methods="8" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="33" coveredstatements="30" elements="41" coveredelements="37"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Controllers/Controller.php">
+        <class name="App\Http\Controllers\Controller" namespace="App\Http\Controllers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Controllers/CountryController.php">
+        <class name="App\Http\Controllers\CountryController" namespace="App\Http\Controllers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="10" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Controllers/MerchantController.php">
+        <class name="App\Http\Controllers\MerchantController" namespace="App\Http\Controllers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="10" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Controllers/OrderController.php">
+        <class name="App\Http\Controllers\OrderController" namespace="App\Http\Controllers">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+        </class>
+        <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <metrics loc="21" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Controllers/ProductController.php">
+        <class name="App\Http\Controllers\ProductController" namespace="App\Http\Controllers">
+          <metrics complexity="6" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="13" coveredelements="0"/>
+        </class>
+        <line num="10" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="20" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="31" type="method" name="store" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="42" type="method" name="show" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="54" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="65" type="method" name="destroy" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <metrics loc="69" ncloc="29" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="13" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Controllers/ResearchController.php">
+        <class name="App\Http\Controllers\ResearchController" namespace="App\Http\Controllers">
+          <metrics complexity="12" methods="9" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="14" elements="51" coveredelements="15"/>
+        </class>
+        <line num="29" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="35" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="46" type="method" name="index" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="62" type="method" name="show" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="79" type="method" name="store" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="82" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="99" type="method" name="create" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="101" type="stmt" count="0"/>
+        <line num="103" type="stmt" count="0"/>
+        <line num="105" type="stmt" count="0"/>
+        <line num="118" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="120" type="stmt" count="0"/>
+        <line num="121" type="stmt" count="0"/>
+        <line num="123" type="stmt" count="0"/>
+        <line num="136" type="method" name="destroy" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="138" type="stmt" count="0"/>
+        <line num="140" type="stmt" count="0"/>
+        <line num="143" type="method" name="getProductsOfResearch" visibility="public" complexity="2" crap="2.31" count="1"/>
+        <line num="145" type="stmt" count="1"/>
+        <line num="146" type="stmt" count="1"/>
+        <line num="148" type="stmt" count="1"/>
+        <line num="150" type="stmt" count="1"/>
+        <line num="153" type="stmt" count="0"/>
+        <line num="155" type="stmt" count="0"/>
+        <line num="157" type="stmt" count="0"/>
+        <line num="162" type="method" name="getResearchesOfUser" visibility="public" complexity="2" crap="2.02" count="1"/>
+        <line num="164" type="stmt" count="1"/>
+        <line num="165" type="stmt" count="1"/>
+        <line num="167" type="stmt" count="0"/>
+        <line num="169" type="stmt" count="1"/>
+        <line num="170" type="stmt" count="1"/>
+        <line num="172" type="stmt" count="1"/>
+        <metrics loc="176" ncloc="129" classes="1" methods="9" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="14" elements="51" coveredelements="15"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Controllers/TaxonomyController.php">
+        <class name="App\Http\Controllers\TaxonomyController" namespace="App\Http\Controllers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="10" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Controllers/TermController.php">
+        <class name="App\Http\Controllers\TermController" namespace="App\Http\Controllers">
+          <metrics complexity="6" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="14" coveredelements="0"/>
+        </class>
+        <line num="22" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="33" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="44" type="method" name="store" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="55" type="method" name="show" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="67" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="79" type="method" name="destroy" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="82" type="stmt" count="0"/>
+        <metrics loc="83" ncloc="42" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="14" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Controllers/TranslationController.php">
+        <class name="App\Http\Controllers\TranslationController" namespace="App\Http\Controllers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="10" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Controllers/UserController.php">
+        <class name="App\Http\Controllers\UserController" namespace="App\Http\Controllers">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+        </class>
+        <line num="21" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="method" name="addCarToUser" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <metrics loc="34" ncloc="28" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+      </file>
+    </package>
+    <package name="App\Http\Controllers\Research">
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Controllers/Research/ProductController.php">
+        <class name="App\Http\Controllers\Research\ProductController" namespace="App\Http\Controllers\Research">
+          <metrics complexity="7" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="13" coveredelements="0"/>
+        </class>
+        <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="29" type="method" name="index" visibility="public" complexity="4" crap="20" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="48" type="method" name="show" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <metrics loc="55" ncloc="41" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="13" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Controllers/Research/TermController.php">
+        <class name="App\Http\Controllers\Research\TermController" namespace="App\Http\Controllers\Research">
+          <metrics complexity="7" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="13" coveredelements="0"/>
+        </class>
+        <line num="15" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="27" type="method" name="index" visibility="public" complexity="4" crap="20" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="45" type="method" name="show" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <metrics loc="52" ncloc="38" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="13" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http">
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Kernel.php">
+        <class name="App\Http\Kernel" namespace="App\Http">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="83" ncloc="55" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Middleware">
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Middleware/Authenticate.php">
+        <class name="App\Http\Middleware\Authenticate" namespace="App\Http\Middleware">
+          <metrics complexity="2" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="22" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Middleware/CheckForMaintenanceMode.php">
+        <class name="App\Http\Middleware\CheckForMaintenanceMode" namespace="App\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="17" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Middleware/EncryptCookies.php">
+        <class name="App\Http\Middleware\EncryptCookies" namespace="App\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="17" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Middleware/RedirectIfAuthenticated.php">
+        <class name="App\Http\Middleware\RedirectIfAuthenticated" namespace="App\Http\Middleware">
+          <metrics complexity="2" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="28" ncloc="19" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Middleware/TrimStrings.php">
+        <class name="App\Http\Middleware\TrimStrings" namespace="App\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="18" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Middleware/TrustProxies.php">
+        <class name="App\Http\Middleware\TrustProxies" namespace="App\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="23" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Http/Middleware/VerifyCsrfToken.php">
+        <class name="App\Http\Middleware\VerifyCsrfToken" namespace="App\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="24" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Models">
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Models/BaseModel.php">
+        <class name="App\Models\BaseModel" namespace="App\Models" fullPackage="App" category="Models" package="App">
+          <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="5" elements="11" coveredelements="6"/>
+        </class>
+        <line num="38" type="method" name="getTranslationAttribute" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="59" type="method" name="setTranslationAttribute" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <metrics loc="68" ncloc="38" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="5" elements="11" coveredelements="6"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Models/Country.php">
+        <class name="App\Models\Country" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="25" ncloc="20" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Models/Merchant.php">
+        <class name="App\Models\Merchant" namespace="App\Models">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="22" type="method" name="admin" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="26" type="method" name="country" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <metrics loc="30" ncloc="25" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Models/Order.php">
+        <class name="App\Models\Order" namespace="App\Models">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="22" type="method" name="products" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="26" type="method" name="user" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <metrics loc="30" ncloc="25" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Models/Product.php">
+        <class name="App\Models\Product" namespace="App\Models">
+          <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="9" coveredelements="9"/>
+        </class>
+        <line num="24" type="method" name="orders" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="28" type="method" name="terms" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="32" type="method" name="research" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="37" type="method" name="merchant" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <metrics loc="41" ncloc="36" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="9" coveredelements="9"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Models/Research.php">
+        <class name="App\Models\Research" namespace="App\Models">
+          <metrics complexity="3" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="7" coveredelements="5"/>
+        </class>
+        <line num="30" type="method" name="terms" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <line num="34" type="method" name="products" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="39" type="method" name="user" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <metrics loc="43" ncloc="38" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="7" coveredelements="5"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Models/Taxonomy.php">
+        <class name="App\Models\Taxonomy" namespace="App\Models">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+        </class>
+        <line num="21" type="method" name="term" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <metrics loc="25" ncloc="20" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Models/Term.php">
+        <class name="App\Models\Term" namespace="App\Models">
+          <metrics complexity="5" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="12" elements="19" coveredelements="15"/>
+        </class>
+        <line num="25" type="method" name="parent" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="29" type="method" name="products" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="33" type="method" name="users" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="43" type="method" name="research" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="52" type="method" name="taxonomy" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <metrics loc="58" ncloc="49" classes="1" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="12" elements="19" coveredelements="15"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Models/Translation.php">
+        <class name="App\Models\Translation" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="18" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Models/User.php">
+        <class name="App\Models\User" namespace="App\Models">
+          <metrics complexity="7" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="14" coveredelements="14"/>
+        </class>
+        <line num="22" type="method" name="getJWTIdentifier" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="24" type="stmt" count="5"/>
+        <line num="32" type="method" name="getJWTCustomClaims" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="34" type="stmt" count="5"/>
+        <line num="37" type="method" name="setPasswordAttribute" visibility="public" complexity="2" crap="2" count="17"/>
+        <line num="39" type="stmt" count="17"/>
+        <line num="40" type="stmt" count="17"/>
+        <line num="42" type="stmt" count="17"/>
+        <line num="70" type="method" name="merchants" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="74" type="method" name="country" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="78" type="method" name="cars" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="80" type="stmt" count="2"/>
+        <metrics loc="82" ncloc="57" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="14" coveredelements="14"/>
+      </file>
+    </package>
+    <package name="App\Policies">
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Policies/ProductPolicy.php">
+        <class name="App\Policies\ProductPolicy" namespace="App\Policies">
+          <metrics complexity="8" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="14" coveredelements="0"/>
+        </class>
+        <line num="19" type="method" name="viewAny" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="31" type="method" name="view" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="42" type="method" name="create" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="54" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="66" type="method" name="delete" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="78" type="method" name="restore" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="90" type="method" name="forceDelete" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="93" type="stmt" count="0"/>
+        <metrics loc="94" ncloc="37" classes="1" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="14" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Policies/ResearchPolicy.php">
+        <class name="App\Policies\ResearchPolicy" namespace="App\Policies">
+          <metrics complexity="7" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="14" coveredelements="0"/>
+        </class>
+        <line num="19" type="method" name="viewAny" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="31" type="method" name="view" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="42" type="method" name="create" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="54" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="66" type="method" name="delete" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="78" type="method" name="restore" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="90" type="method" name="forceDelete" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <metrics loc="94" ncloc="47" classes="1" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="14" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Policies/TermPolicy.php">
+        <class name="App\Policies\TermPolicy" namespace="App\Policies">
+          <metrics complexity="11" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="18" coveredelements="0"/>
+        </class>
+        <line num="19" type="method" name="viewAny" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="31" type="method" name="view" visibility="public" complexity="3" crap="12" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="44" type="method" name="create" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="56" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="68" type="method" name="delete" visibility="public" complexity="3" crap="12" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="82" type="method" name="restore" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="94" type="method" name="forceDelete" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <metrics loc="98" ncloc="43" classes="1" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="18" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Providers">
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Providers/AppServiceProvider.php">
+        <class name="App\Providers\AppServiceProvider" namespace="App\Providers">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="14" type="method" name="register" visibility="public" complexity="1" crap="1" count="46"/>
+        <line num="17" type="stmt" count="46"/>
+        <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="46"/>
+        <line num="27" type="stmt" count="46"/>
+        <metrics loc="28" ncloc="14" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Providers/AuthServiceProvider.php">
+        <class name="App\Providers\AuthServiceProvider" namespace="App\Providers">
+          <metrics complexity="3" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="4" elements="9" coveredelements="4"/>
+        </class>
+        <line num="24" type="method" name="boot" visibility="public" complexity="3" crap="4.12" count="46"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="46"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="46"/>
+        <line num="37" type="stmt" count="46"/>
+        <line num="38" type="stmt" count="46"/>
+        <metrics loc="39" ncloc="27" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="4" elements="9" coveredelements="4"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Providers/BroadcastServiceProvider.php">
+        <class name="App\Providers\BroadcastServiceProvider" namespace="App\Providers">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="22" ncloc="16" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Providers/EventServiceProvider.php">
+        <class name="App\Providers\EventServiceProvider" namespace="App\Providers">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="28" type="method" name="boot" visibility="public" complexity="1" crap="1" count="46"/>
+        <line num="30" type="stmt" count="46"/>
+        <line num="33" type="stmt" count="46"/>
+        <metrics loc="34" ncloc="22" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Providers/HelperServiceProvider.php">
+        <class name="App\Providers\HelperServiceProvider" namespace="App\Providers">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+        </class>
+        <line num="14" type="method" name="register" visibility="public" complexity="2" crap="2" count="46"/>
+        <line num="16" type="stmt" count="46"/>
+        <line num="17" type="stmt" count="46"/>
+        <line num="18" type="stmt" count="46"/>
+        <line num="20" type="stmt" count="46"/>
+        <line num="27" type="method" name="boot" visibility="public" complexity="1" crap="1" count="46"/>
+        <line num="30" type="stmt" count="46"/>
+        <metrics loc="31" ncloc="19" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Providers/RouteServiceProvider.php">
+        <class name="App\Providers\RouteServiceProvider" namespace="App\Providers">
+          <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="18" coveredelements="18"/>
+        </class>
+        <line num="31" type="method" name="boot" visibility="public" complexity="1" crap="1" count="46"/>
+        <line num="35" type="stmt" count="46"/>
+        <line num="36" type="stmt" count="46"/>
+        <line num="43" type="method" name="map" visibility="public" complexity="1" crap="1" count="46"/>
+        <line num="45" type="stmt" count="46"/>
+        <line num="47" type="stmt" count="46"/>
+        <line num="50" type="stmt" count="46"/>
+        <line num="59" type="method" name="mapWebRoutes" visibility="protected" complexity="1" crap="1" count="46"/>
+        <line num="61" type="stmt" count="46"/>
+        <line num="62" type="stmt" count="46"/>
+        <line num="63" type="stmt" count="46"/>
+        <line num="64" type="stmt" count="46"/>
+        <line num="73" type="method" name="mapApiRoutes" visibility="protected" complexity="1" crap="1" count="46"/>
+        <line num="75" type="stmt" count="46"/>
+        <line num="76" type="stmt" count="46"/>
+        <line num="77" type="stmt" count="46"/>
+        <line num="78" type="stmt" count="46"/>
+        <line num="79" type="stmt" count="46"/>
+        <metrics loc="80" ncloc="40" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="18" coveredelements="18"/>
+      </file>
+    </package>
+    <package name="App\Repositories">
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Repositories/BaseRepository.php">
+        <class name="App\Repositories\BaseRepository" namespace="App\Repositories" fullPackage="App" package="App">
+          <metrics complexity="11" methods="9" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="6" elements="25" coveredelements="8"/>
+        </class>
+        <line num="27" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="12"/>
+        <line num="29" type="stmt" count="12"/>
+        <line num="30" type="stmt" count="12"/>
+        <line num="42" type="method" name="makeModel" visibility="public" complexity="2" crap="2.06" count="12"/>
+        <line num="45" type="stmt" count="12"/>
+        <line num="47" type="stmt" count="12"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="12"/>
+        <line num="58" type="method" name="all" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="68" type="method" name="find" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="78" type="method" name="create" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="89" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="93" type="stmt" count="0"/>
+        <line num="100" type="method" name="delete" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="102" type="stmt" count="0"/>
+        <line num="103" type="stmt" count="0"/>
+        <line num="112" type="method" name="findBy" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="114" type="stmt" count="0"/>
+        <line num="116" type="method" name="latest" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="118" type="stmt" count="0"/>
+        <metrics loc="120" ncloc="68" classes="1" methods="9" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="6" elements="25" coveredelements="8"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Repositories/CountryRepository.php">
+        <class name="App\Repositories\CountryRepository" namespace="App\Repositories">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="14" type="method" name="model" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <metrics loc="18" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Repositories/MerchantRepository.php">
+        <class name="App\Repositories\MerchantRepository" namespace="App\Repositories">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="14" type="method" name="model" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <metrics loc="18" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Repositories/OrderRepository.php">
+        <class name="App\Repositories\OrderRepository" namespace="App\Repositories">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="14" type="method" name="model" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <metrics loc="18" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Repositories/ProductRepository.php">
+        <class name="App\Repositories\ProductRepository" namespace="App\Repositories">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="14" type="method" name="model" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <metrics loc="18" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Repositories/ResearchRepository.php">
+        <class name="App\Repositories\ResearchRepository" namespace="App\Repositories">
+          <metrics complexity="5" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="12" elements="17" coveredelements="15"/>
+        </class>
+        <line num="16" type="method" name="model" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="18" type="stmt" count="3"/>
+        <line num="21" type="method" name="getFromUserWithTerms" visibility="public" complexity="2" crap="2.02" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="31" type="method" name="getProductsWithMerchants" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="38" type="method" name="getStatus" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <metrics loc="44" ncloc="41" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="12" elements="17" coveredelements="15"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Repositories/TaxonomyRepository.php">
+        <class name="App\Repositories\TaxonomyRepository" namespace="App\Repositories">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="14" type="method" name="model" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <metrics loc="18" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Repositories/TermRepository.php">
+        <class name="App\Repositories\TermRepository" namespace="App\Repositories">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="14" type="method" name="model" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="16" type="stmt" count="4"/>
+        <metrics loc="18" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Repositories/TranslationRepository.php">
+        <class name="App\Repositories\TranslationRepository" namespace="App\Repositories">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="14" type="method" name="model" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <metrics loc="18" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Repositories/UserRepository.php">
+        <class name="App\Repositories\UserRepository" namespace="App\Repositories">
+          <metrics complexity="4" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="1" elements="17" coveredelements="2"/>
+        </class>
+        <line num="15" type="method" name="model" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="17" type="stmt" count="2"/>
+        <line num="20" type="method" name="changeCarName" visibility="public" complexity="3" crap="12" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <metrics loc="39" ncloc="36" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="1" elements="17" coveredelements="2"/>
+      </file>
+    </package>
+    <package name="App\Services">
+      <file name="/home/thomas/PhpstormProjects/classic-parts-finder/app/Services/TermService.php">
+        <class name="App\Services\TermService" namespace="App\Services">
+          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="10" coveredelements="0"/>
+        </class>
+        <line num="17" type="method" name="detachTerm" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <metrics loc="31" ncloc="26" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="10" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="59" loc="2473" ncloc="1661" classes="40" methods="128" coveredmethods="53" conditionals="0" coveredconditionals="0" statements="311" coveredstatements="145" elements="439" coveredelements="198"/>
+  </project>
+</coverage>

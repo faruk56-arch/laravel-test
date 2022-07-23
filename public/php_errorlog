@@ -1,0 +1,71 @@
+[05-May-2022 16:30:55 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Lcobucci\JWT\Signer\Hmac::doVerify() must be an instance of Lcobucci\JWT\Signer\Key, null given, called in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php on line 44 and defined in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php:29
+Stack trace:
+#0 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php(44): Lcobucci\JWT\Signer\Hmac->doVerify('\x0E\xA5\x8E\xAB\xE2F\x81;$\xD3=\xF5\xB9\xA8\xA7...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#1 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signature.php(49): Lcobucci\JWT\Signer\BaseSigner->verify('\x0E\xA5\x8E\xAB\xE2F\x81;$\xD3=\xF5\xB9\xA8\xA7...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#2 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Token.php(202): Lcobucci\JWT\Signature->verify(Object(Lcobucci\JWT\Signer\Hmac\Sha256), 'eyJ0eXAiOiJKV1Q...', NULL)
+#3 /home/c in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php on line 29
+[05-May-2022 16:54:14 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Lcobucci\JWT\Signer\Hmac::doVerify() must be an instance of Lcobucci\JWT\Signer\Key, null given, called in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php on line 44 and defined in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php:29
+Stack trace:
+#0 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php(44): Lcobucci\JWT\Signer\Hmac->doVerify(',\xE8md\x05s^\xC3\x99\xB9\xBD\x98O"\xC4...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#1 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signature.php(49): Lcobucci\JWT\Signer\BaseSigner->verify(',\xE8md\x05s^\xC3\x99\xB9\xBD\x98O"\xC4...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#2 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Token.php(202): Lcobucci\JWT\Signature->verify(Object(Lcobucci\JWT\Signer\Hmac\Sha256), 'eyJ0eXAiOiJKV1Q...', NULL)
+#3 /home/customer/www/alis17 in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php on line 29
+[05-May-2022 21:16:27 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Lcobucci\JWT\Signer\Hmac::doVerify() must be an instance of Lcobucci\JWT\Signer\Key, null given, called in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php on line 44 and defined in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php:29
+Stack trace:
+#0 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php(44): Lcobucci\JWT\Signer\Hmac->doVerify('\xDA\xA4\x8E\x01\x96i\x81\x90\xE7)\xC7\x02\xE9\xC8\xD9...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#1 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signature.php(49): Lcobucci\JWT\Signer\BaseSigner->verify('\xDA\xA4\x8E\x01\x96i\x81\x90\xE7)\xC7\x02\xE9\xC8\xD9...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#2 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Token.php(202): Lcobucci\JWT\Signature->verify(Object(Lcobucci\JWT\Signer\Hmac\Sha256), 'eyJ0eXAiOiJKV1Q...', NULL in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php on line 29
+[06-May-2022 16:36:24 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Lcobucci\JWT\Signer\Hmac::doVerify() must be an instance of Lcobucci\JWT\Signer\Key, null given, called in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php on line 44 and defined in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php:29
+Stack trace:
+#0 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php(44): Lcobucci\JWT\Signer\Hmac->doVerify('}\xA2\xF7\xE9<\xA5_\xCF\xE8@r\xD1\x8C\x02\xAC...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#1 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signature.php(49): Lcobucci\JWT\Signer\BaseSigner->verify('}\xA2\xF7\xE9<\xA5_\xCF\xE8@r\xD1\x8C\x02\xAC...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#2 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Token.php(202): Lcobucci\JWT\Signature->verify(Object(Lcobucci\JWT\Signer\Hmac\Sha256), 'eyJ0eXAiOiJKV1Q...', NULL)
+#3 /home/custome in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php on line 29
+[10-May-2022 16:04:03 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Lcobucci\JWT\Signer\Hmac::doVerify() must be an instance of Lcobucci\JWT\Signer\Key, null given, called in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php on line 44 and defined in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php:29
+Stack trace:
+#0 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php(44): Lcobucci\JWT\Signer\Hmac->doVerify('\xC4\x8B\xA3\xEFaEm\xD6.8\xAC;\x80c4...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#1 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signature.php(49): Lcobucci\JWT\Signer\BaseSigner->verify('\xC4\x8B\xA3\xEFaEm\xD6.8\xAC;\x80c4...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#2 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Token.php(202): Lcobucci\JWT\Signature->verify(Object(Lcobucci\JWT\Signer\Hmac\Sha256), 'eyJ0eXAiOiJKV1Q...', NULL)
+#3 /home/customer/www/alis170.sg-h in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php on line 29
+[10-May-2022 16:25:17 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Lcobucci\JWT\Signer\Hmac::doVerify() must be an instance of Lcobucci\JWT\Signer\Key, null given, called in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php on line 44 and defined in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php:29
+Stack trace:
+#0 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php(44): Lcobucci\JWT\Signer\Hmac->doVerify('\xE1\x9D\x8B?b\xFE\x05b\x08\xB2\xC4j!\xED;...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#1 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signature.php(49): Lcobucci\JWT\Signer\BaseSigner->verify('\xE1\x9D\x8B?b\xFE\x05b\x08\xB2\xC4j!\xED;...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#2 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Token.php(202): Lcobucci\JWT\Signature->verify(Object(Lcobucci\JWT\Signer\Hmac\Sha256), 'eyJ0eXAiOiJKV1Q...', NULL)
+#3 /home/customer/www/ in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php on line 29
+[12-May-2022 17:08:20 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Lcobucci\JWT\Signer\Hmac::doVerify() must be an instance of Lcobucci\JWT\Signer\Key, null given, called in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php on line 44 and defined in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php:29
+Stack trace:
+#0 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php(44): Lcobucci\JWT\Signer\Hmac->doVerify('\x86w7&]\x93\x10\xD5\xF8\x1E\x01\xD68\x01....', 'eyJ0eXAiOiJKV1Q...', NULL)
+#1 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signature.php(49): Lcobucci\JWT\Signer\BaseSigner->verify('\x86w7&]\x93\x10\xD5\xF8\x1E\x01\xD68\x01....', 'eyJ0eXAiOiJKV1Q...', NULL)
+#2 /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Token.php(202): Lcobucci\JWT\Signature->verify(Object(Lcobucci\JWT\Signer\Hmac\Sha256), 'eyJ0eXAiOiJKV1Q...', NULL)
+#3 /home/customer/www/ in /home/customer/www/alis170.sg-host.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php on line 29
+[14-Jun-2022 10:05:40 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Lcobucci\JWT\Signer\Hmac::doVerify() must be an instance of Lcobucci\JWT\Signer\Key, null given, called in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php on line 44 and defined in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php:29
+Stack trace:
+#0 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php(44): Lcobucci\JWT\Signer\Hmac->doVerify('\xF6\xEBgW\xCAn\xC5)\xD1\xEE\xA9\xF1p\v\xEB...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#1 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signature.php(49): Lcobucci\JWT\Signer\BaseSigner->verify('\xF6\xEBgW\xCAn\xC5)\xD1\xEE\xA9\xF1p\v\xEB...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#2 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Token.php(202): Lcobucci\JWT\Signature->verify(Object(Lcobucci\JWT\Signer\Hmac\Sha256), 'eyJ0eXAiOiJKV1Q...', NULL)
+#3 /home/customer/www/com in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php on line 29
+[14-Jun-2022 10:14:24 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Lcobucci\JWT\Signer\Hmac::doVerify() must be an instance of Lcobucci\JWT\Signer\Key, null given, called in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php on line 44 and defined in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php:29
+Stack trace:
+#0 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php(44): Lcobucci\JWT\Signer\Hmac->doVerify('\xC0\x88\xD1)A\x12\xFA\xD8\x1C\xA0\xBD\xF3\xA8uh...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#1 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signature.php(49): Lcobucci\JWT\Signer\BaseSigner->verify('\xC0\x88\xD1)A\x12\xFA\xD8\x1C\xA0\xBD\xF3\xA8uh...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#2 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Token.php(202): Lcobucci\JWT\Signature->verify(Object(Lcobucci\JWT\Signer\Hmac\Sha256), 'eyJ0eXAiOiJKV1Q...', NULL)
+#3 /home/custom in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php on line 29
+[14-Jun-2022 10:15:48 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Lcobucci\JWT\Signer\Hmac::doVerify() must be an instance of Lcobucci\JWT\Signer\Key, null given, called in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php on line 44 and defined in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php:29
+Stack trace:
+#0 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php(44): Lcobucci\JWT\Signer\Hmac->doVerify('b\xE4p\xE7\xA6\xB3\xA8\x90\x84\xC4\x9C\x7FJ\xD0\xD4...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#1 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signature.php(49): Lcobucci\JWT\Signer\BaseSigner->verify('b\xE4p\xE7\xA6\xB3\xA8\x90\x84\xC4\x9C\x7FJ\xD0\xD4...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#2 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Token.php(202): Lcobucci\JWT\Signature->verify(Object(Lcobucci\JWT\Signer\Hmac\Sha256), 'eyJ0eXAiOiJKV1Q...', NULL)
+#3 /home/ in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php on line 29
+[15-Jun-2022 15:54:50 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Lcobucci\JWT\Signer\Hmac::doVerify() must be an instance of Lcobucci\JWT\Signer\Key, null given, called in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php on line 44 and defined in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php:29
+Stack trace:
+#0 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php(44): Lcobucci\JWT\Signer\Hmac->doVerify('\xA8\x82p\x98J\xB2\xED\xEB\xCDa\xDEQ\xAC\xC6\x8C...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#1 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signature.php(49): Lcobucci\JWT\Signer\BaseSigner->verify('\xA8\x82p\x98J\xB2\xED\xEB\xCDa\xDEQ\xAC\xC6\x8C...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#2 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Token.php(202): Lcobucci\JWT\Signature->verify(Object(Lcobucci\JWT\Signer\Hmac\Sha256), 'eyJ0eXAiOiJKV1Q...', NULL)
+#3 /home/custom in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php on line 29
+[20-Jun-2022 14:29:05 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Lcobucci\JWT\Signer\Hmac::doVerify() must be an instance of Lcobucci\JWT\Signer\Key, null given, called in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php on line 44 and defined in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php:29
+Stack trace:
+#0 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/BaseSigner.php(44): Lcobucci\JWT\Signer\Hmac->doVerify(',tL\xB8n\x9A\xC7\fk\x89%l\xE0\x93\xC4...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#1 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signature.php(49): Lcobucci\JWT\Signer\BaseSigner->verify(',tL\xB8n\x9A\xC7\fk\x89%l\xE0\x93\xC4...', 'eyJ0eXAiOiJKV1Q...', NULL)
+#2 /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Token.php(202): Lcobucci\JWT\Signature->verify(Object(Lcobucci\JWT\Signer\Hmac\Sha256), 'eyJ0eXAiOiJKV1Q...', NULL)
+#3 /home/customer/www/commerce-prive. in /home/customer/www/commerce-prive.com/public_html/vendor/lcobucci/jwt/src/Signer/Hmac.php on line 29

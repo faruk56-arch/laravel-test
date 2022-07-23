@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,800&display=swap');
+
+// Icons
+$fa-font-display: swap;
+@import url('https://pro.fontawesome.com/releases/v5.11.2/css/all.css');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+//@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+// CPF Style
+@import '_style.scss';
